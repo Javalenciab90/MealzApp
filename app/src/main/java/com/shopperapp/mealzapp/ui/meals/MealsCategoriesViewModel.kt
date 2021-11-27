@@ -1,15 +1,11 @@
 package com.shopperapp.mealzapp.ui.meals
 
-import android.util.Log
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.shopperapp.model.MealsRepository
 import com.shopperapp.model.response.MealResponse
-import com.shopperapp.model.response.MealsCategoriesResponse
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
