@@ -71,6 +71,9 @@ dependencies {
     // Coil - Images
     implementation "io.coil-kt:coil-compose:$coil_version"
 
+    // Navigation
+    implementation "androidx.navigation:navigation-compose:$navigation_version"
+
     // Tests
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
